@@ -1,0 +1,15 @@
+term 1
+need to find hit time for z to ALL i=/=z
+so n-loop for hit-time
+
+term n
+then need the loop for UNION 
+will be a series of add/minus
+
+then just add the final term
+
+
+FOUND OUT AL LTHIS TIME IVE BEEN FINDING F (CDF) INSTEAD OF P (PDF) for all the terms!!!!e
+
+
+

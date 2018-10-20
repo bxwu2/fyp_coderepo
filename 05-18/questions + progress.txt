@@ -1,0 +1,25 @@
+for the 1st term of the cover time CDF equation
+- if i simulate the cover time with starting node 2
+- do I only sum the probability from STARTING node (2) to 1, 2 ... n i=/=z
+- COMPARE WITH THE NOTATION ON THE LEFT OF COVER TIME PARAGRAPH (d^t_ix_j instead of x_j)
+
+
+for the nth term
+- i can simply add those in the union?
+- ALSO, more importantly, when i=/= z, can i simply ignore all those situations??? 
+  e.g. if i had 4 nodes, and the 3rd term: 123 124 134 234, and starting node was 1 ? can i only consider 234?
+
+for the LAST TERM
+- dont have to exclude z right?
+
+
+---------------------------------
+- implemented the new nchoosek code into the covertime code
+- CODE IS A MESS, hard to decide where to start from,
+- need to clean up code (isolate code for purely coverTime and so on)
+- commenting is atrocious
+- losing track of what  terms mean what
+- this is how debugging is???
+- BIG PROBLEM with indexing, is it t? it it n? etc????
+- code oupttput even became negative for probabilities
+- just noticed that simulated PMF seems different to the PMF histogram CHECK!!!!

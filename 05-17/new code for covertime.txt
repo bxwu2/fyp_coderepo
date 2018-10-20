@@ -1,0 +1,39 @@
+
+
+matrixAbs = transMatrix;
+totalSum = 0;
+
+for union = 2:n
+	%n_sum = 0;
+		
+	combArr = nchoosek(1:n,union);				%  nCnth term combos
+	combSum = 0;
+	
+	for combIndex = 1:size(combArr,1);			% for all the combos of nCnth term
+	*	for combAbs = combArr(combIndex,:)		% for that combination, make them absorbing nodes 
+			%transAbs(combAbs,:) = 0;
+			%transAbs(combAbs,combAbs) = 1;
+			
+	*	end
+
+		transTmatrix = transAbs^t;				% find hit time matrix for t_steps
+		
+		combProbs = transTmatrix(nodeSrc, combArr(combIndex,:))	% extract the prob Hit time from Src to the absorbing nodes
+		combSum = combSum + sum(combProbs);								% sum them to get the UNION of these absorbing nodes
+		
+	end
+	
+	totalSum = totalSum + combSum;			% add the next nth term	
+	
+end
+
+	
+		
+	* % could do this instead???
+		transAbs(combArr(combIndex,:),:) = 0;	% zero off all the rows of the absorbing nodes at once
+		absIdx = sub2ind(transMatrix,combArr(combIndex,:),combArr(combIndex,:)); % find the index for the diagonal entries of abs nodes
+		transAbs(absIdx) = 1;
+	*
+	
+	
+	

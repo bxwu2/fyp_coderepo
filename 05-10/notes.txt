@@ -1,0 +1,7 @@
+fixed term1 loop (coverIndex instead of t, so now term1 isnt the same number in the array)
+
+completed the CDF and PMF codes for cover, but MAY NOT BE ACCURATE
+need to check CDF code again
+AND ALSO CONSIDER the minimum steps NEEDED for the cover to even begin
+
+ALSO ARE THE NUMBERS supposed to match AT LEAST similarly? or is it purely the SHAPE

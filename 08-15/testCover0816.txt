@@ -1,0 +1,19 @@
+spent an eternity indexing
+everything
+
+
+
+BUT FINALLY REALISED MY PROBLEM
+always forget that dt is itself a CDF value
+SO ALL THIS TIME ive been trying to find PDF of cover by using CDF values
+
+fix everything change loop to have 1:t iteration isde, and also decided that would be easier for matlab if i just had 1 loop that would continuously sum (sum= sum+1) instead of having a 6 rows which i would then add afterward.
+
+
+^ SLIGHTLY OFF THO THE PROBLEM STILL REMAINS THAT THE MINUS 1 OR nth TERM is not needed? or = 0?? or overcopmensates (resultant -1 or +1)
+
+
+then aug16-  bring both graphs into the 1 m file, that is collate both PDF and CDF together.
+
+
+NOTICED THAT for 2:n-2 almsot seems to work... it looks like the n-1th term also equals 1??????

@@ -1,0 +1,12 @@
+basically did nothing new to the test.m file from earlier
+
+but reconciled the use of conv
+
+however, for two n-length vectors
+conv(n1,n2) will produce vector of length len(n1)+len(n2) - 1
+what are these new values???? (different indices)
+
+
+GOT EXTRA CLOSE WHEN I changed indices (perhaps conv() was doing an extra value at index 101 instead of 100, so this extra 0 from zeros(1,101) was ruining it.
+
+NONETHELSS, STILL NOT PERFECT. consider the conv function section as well as the vectors for the hit times pdfij and pdfji

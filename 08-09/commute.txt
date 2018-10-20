@@ -1,0 +1,12 @@
+perfected both hit PDF and CDF
+
+alter countercode for commute (Return)
+
+spent ages working out commute
+had to eliminate the plateaus
+
+convolving WORKED IT OUT IN THE END
+using conv() function
+however, SLIGHTLY OFF (for pdf)
+but CDF was perfect, but coudlnt get PDF from CDF directly????? 
+send email to nikola if commute PDF supposed to 100% match

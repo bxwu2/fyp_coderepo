@@ -1,0 +1,22 @@
+- added code to ensure nodeSrc =/= nodeDst
+- removed recursion, started again (using same network generation/same network)
+- trans matrix, D matrix, Dt matrix, C matrix
+
+- changed notation for plot titles (subscript ij)
+- added code for creating return Hit time and plots (PDF/CDF)
+
+- commuteTime CDF no problems after the meeting
+- commuteTime PDF took ages but found the eventual error (using wrong index t instead of the right one commuteHop)
+- added more comments/formatting
+
+
+to ask
+- re: CommuteTime, kij - 1, does that mean the array commuteCDF(t) is the CDF value for hop t-1?
+
+to do
+- clean up everything
+- section them off again
+- modify descriptions for journal entries, annotations, comments (PDF -> PMF)
+- add title indexing (subscript ij) for the hit time plots
+- COVER TIME LEFT
+

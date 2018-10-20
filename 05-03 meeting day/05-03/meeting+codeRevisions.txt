@@ -1,0 +1,31 @@
+- original
+- needed to fix so no repeat neighbors
+- add numEdges code to ensure no disconnections/isolated nodes
+- histograms <-- convert to PDF
+- added code to do commute/cover, with desired src/dst	
+- add code to get a control network controlFlag while lloop
+- add code to fix the problem where program runs forever (prevM)
+-
+- recursion formula
+- fix errors here (added arrHopProb), allocate to correct prefix
+- added absorbing node to fix wrongness
+
+- finished hit time using recursion (NEED TO REDO THIS)
+
+- did convolution but incorrect, need to fix loops
+
+- need to add more absorbing nodes for efficiency
+
+COMPLETELY REVAMP the hit/commute
+and revisit cover time
+
+MEETING 
+- discussed the ^t of D matrix, recursion not needed
+- also discussed where the j independence is not true
+- discussed union and intersect symbols for this network (OR and AND)
+- +-+- algorithm
+- no need for statistical analysis, JUST COMPARE similar shape??
+- impossible to be 100% accurate given nature of random walk
+
+may 4 - ALSO NOTE, instead of summing everything, you can just do
+sum(arr(:,Hop))

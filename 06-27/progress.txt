@@ -1,0 +1,28 @@
+hit time and commute time done
+
+not cover time
+
+
+using Bar is good
+
+or plot (, , '--o')
+can use simulation as '-'
+
+fixed hit time counterNode section code
+if at node 3, it'll hop, but if it hops to node 4, then the next iteration would be "at 4" and then hop to 5 etc
+
+all of that would count as 1 hop even tho it travelled more than once
+
+created a switch case, more organised code for network generating, created new while loop conditions (simpler, more intuitive) need to think of better code name for conditions tho!!!
+
+so PMF/PDF MATCHES!!!!
+
+test for CDF and then
+
+next up is commute time
+
+
+
+TODAY TOOK MAYBE 4 HOURS OF MY TIME
+took a long time to create correct conditions for while loop, as well ass fixing the 2 LINE OF CODE 
+and also changed histogram to bar plot, as well as making new plot that superimposes the exp/sim for hit time 
