@@ -2,6 +2,9 @@ clear all
 close all
 clc
 
+
+% so what does this do
+
 % G = graph([1,2],[2,3],4,5);
 % plot(G)
 
