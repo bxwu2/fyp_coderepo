@@ -1,0 +1,23 @@
+[33mcommit 83702894df26d9e61f9e7d01ecf90c174bb88d21[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Barry Wu <barryxwu@gmail.com>
+Date:   Tue Dec 18 13:19:43 2018 +1100
+
+    testing modifying files to commit
+
+[33mcommit 3e67fa290ae10c6bfd6b1cba60aa81c7965d0090[m
+Author: bxwu2 <43980245+bxwu2@users.noreply.github.com>
+Date:   Sat Oct 20 23:19:23 2018 +1100
+
+    final clean up of code
+
+[33mcommit 2c8a7db58d4081d66395755469c22637b111bbcf[m
+Author: bxwu2 <43980245+bxwu2@users.noreply.github.com>
+Date:   Sat Oct 20 22:55:32 2018 +1100
+
+    code repo
+
+[33mcommit 906bd0d57f88c851c3abd8bc26af148123033125[m
+Author: bxwu2 <43980245+bxwu2@users.noreply.github.com>
+Date:   Fri Nov 6 20:00:00 2015 -0600
+
+    first commit

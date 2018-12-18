@@ -1,1 +1,7 @@
 wtf's going on
+
+edit using gitbash
+
+gonna try again using -m
+
+
